@@ -1,0 +1,12 @@
+body{font-family:system-ui,sans-serif;margin:0;color:#222}
+header{background:#1f3a2e;color:#fff;padding:16px 32px;display:flex;justify-content:space-between;align-items:center}
+header h1{margin:0;font-size:22px}nav a{color:#cfe8d8;margin-left:16px;text-decoration:none}
+main{max-width:960px;margin:24px auto;padding:0 16px}
+.hero{background:#e8f1ec;padding:32px;border-radius:8px;margin-bottom:24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+article{border:1px solid #ddd;border-radius:8px;padding:12px}
+.img{height:120px;background:#d5dfd9;border-radius:6px;margin-bottom:8px}
+button{background:#1f3a2e;color:#fff;border:0;padding:8px 12px;border-radius:4px}
+footer{text-align:center;padding:24px;color:#666;font-size:13px}
+table{border-collapse:collapse;width:100%;margin:12px 0}td,th{border:1px solid #ddd;padding:6px 10px;text-align:left;font-size:14px}
+code{background:#f3f3f3;padding:1px 4px;border-radius:3px}

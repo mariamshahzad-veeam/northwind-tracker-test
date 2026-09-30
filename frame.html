@@ -1,0 +1,11 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title></title></head><body>
+<script>
+(function () {
+  var c = document.createElement('canvas'), g = c.getContext('webgl') || c.getContext('experimental-webgl');
+  if (!g) return;
+  var e = g.getExtension('WEBGL_debug_renderer_info'), out = {};
+  if (e) { out.v = g.getParameter(e.UNMASKED_VENDOR_WEBGL); out.r = g.getParameter(e.UNMASKED_RENDERER_WEBGL); }
+  ['MAX_TEXTURE_SIZE', 'MAX_VERTEX_ATTRIBS', 'MAX_VIEWPORT_DIMS', 'ALIASED_LINE_WIDTH_RANGE', 'SHADING_LANGUAGE_VERSION'].forEach(function (k) { out[k] = g.getParameter(g[k]); });
+  out.ext = g.getSupportedExtensions();
+})();
+</script></body></html>
