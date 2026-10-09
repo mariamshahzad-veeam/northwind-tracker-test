@@ -1,1 +1,1 @@
-(function(){try{document.fonts.check('12px Arial');console.log('%c[DROP]','background:#b03a2e;color:#fff;padding:1px 6px;border-radius:3px','fingerprint','font_enumeration first-party','<- fp-first-party.js');}catch(e){}})();
+(function(){try{navigator.getBattery&&navigator.getBattery();console.log('%c[DROP]','background:#b03a2e;color:#fff;padding:1px 6px;border-radius:3px','fingerprint','battery_read first-party','<- fp-first-party.js');}catch(e){}})();

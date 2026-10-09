@@ -1,0 +1,18 @@
+Total messages: 16 (Errors: 1, Warnings: 0)
+
+[LOG] %c[DROP] background:#b03a2e;color:#fff;padding:1px 6px;border-radius:3px fingerprint screen_read (width only) <- screen-width.js @ https://gcore.jsdelivr.net/gh/mariamshahzad-veeam/northwind-tracker-test@main/qa/screen-width.js:0
+[LOG] %c[DROP] background:#b03a2e;color:#fff;padding:1px 6px;border-radius:3px fingerprint font_enumeration first-party <- fp-first-party.js @ https://mariamshahzad-veeam.github.io/northwind-tracker-test/qa/fp-first-party.js:0
+[LOG] [QA] integrity OK @ https://mariamshahzad-veeam.github.io/northwind-tracker-test/qa/integrity.js:15
+[LOG] %c[DROP] background:#b03a2e;color:#fff;padding:1px 6px;border-radius:3px fingerprint audio_fingerprint inline @ https://mariamshahzad-veeam.github.io/northwind-tracker-test/qa.html:20
+[LOG] %c[DROP] background:#b03a2e;color:#fff;padding:1px 6px;border-radius:3px fingerprint screen_read (colordepth only) <- screen-colordepth.js @ https://raw.githack.com/mariamshahzad-veeam/northwind-tracker-test/main/qa/screen-colordepth.js:0
+[LOG] %c[DROP] background:#b03a2e;color:#fff;padding:1px 6px;border-radius:3px fingerprint screen_read (dpr only) <- screen-dpr.js @ https://cdn.statically.io/gh/mariamshahzad-veeam/northwind-tracker-test@main/qa/screen-dpr.js:0
+[LOG] %c[DROP] background:#b03a2e;color:#fff;padding:1px 6px;border-radius:3px fingerprint hardware_read x5000 reads 6.4 ms <- fp-loop.js @ https://cdn.statically.io/gh/mariamshahzad-veeam/northwind-tracker-test@main/qa/fp-loop.js:0
+[LOG] %c[DROP] background:#b03a2e;color:#fff;padding:1px 6px;border-radius:3px fingerprint screen_read (pixeldepth only) <- screen-pixeldepth.js @ https://rawcdn.githack.com/mariamshahzad-veeam/northwind-tracker-test/21f853d990ce83cf9d77b04d232139aa3757c006/qa/screen-pixeldepth.js:0
+[LOG] %c[DROP] background:#b03a2e;color:#fff;padding:1px 6px;border-radius:3px fingerprint screen_read (availwidth only) <- screen-availwidth.js @ https://originfastly.jsdelivr.net/gh/mariamshahzad-veeam/northwind-tracker-test@main/qa/screen-availwidth.js:0
+[LOG] [QA] iframe storage + hardware read @ https://raw.githack.com/mariamshahzad-veeam/northwind-tracker-test/main/qa/frame-x.html:6
+[LOG] %c[DROP] background:#b03a2e;color:#fff;padding:1px 6px;border-radius:3px fingerprint screen_read (availheight only) <- screen-availheight.js @ https://quantil.jsdelivr.net/gh/mariamshahzad-veeam/northwind-tracker-test@main/qa/screen-availheight.js:0
+[LOG] %c[DROP] background:#b03a2e;color:#fff;padding:1px 6px;border-radius:3px fingerprint screen_read (height only) <- screen-height.js @ https://fastly.jsdelivr.net/gh/mariamshahzad-veeam/northwind-tracker-test@main/qa/screen-height.js:0
+[ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://mariamshahzad-veeam.github.io/favicon.ico:0
+[LOG] %c[DROP] background:#b03a2e;color:#fff;padding:1px 6px;border-radius:3px fingerprint battery_read after 12 s <- fp-late.js @ https://rawcdn.githack.com/mariamshahzad-veeam/northwind-tracker-test/21f853d990ce83cf9d77b04d232139aa3757c006/qa/fp-late.js:0
+[LOG] [QA] created after first scroll @ https://mariamshahzad-veeam.github.io/northwind-tracker-test/qa/scroll.js:7
+[LOG] [QA] created after first click @ https://mariamshahzad-veeam.github.io/northwind-tracker-test/qa/scroll.js:8
