@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Northwind - QA scan test</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="https://gcore.jsdelivr.net/gh/mariamshahzad-veeam/northwind-tracker-test@main/qa/screen-width.js" async></script>
+<script src="https://fastly.jsdelivr.net/gh/mariamshahzad-veeam/northwind-tracker-test@main/qa/screen-height.js" async></script>
+<script src="https://originfastly.jsdelivr.net/gh/mariamshahzad-veeam/northwind-tracker-test@main/qa/screen-availwidth.js" async></script>
+<script src="https://quantil.jsdelivr.net/gh/mariamshahzad-veeam/northwind-tracker-test@main/qa/screen-availheight.js" async></script>
+<script src="https://raw.githack.com/mariamshahzad-veeam/northwind-tracker-test/main/qa/screen-colordepth.js" async></script>
+<script src="https://rawcdn.githack.com/mariamshahzad-veeam/northwind-tracker-test/21f853d990ce83cf9d77b04d232139aa3757c006/qa/screen-pixeldepth.js" async></script>
+<script src="https://cdn.statically.io/gh/mariamshahzad-veeam/northwind-tracker-test/main/qa/screen-dpr.js" async></script>
+<script src="https://cdn.statically.io/gh/mariamshahzad-veeam/northwind-tracker-test/main/qa/fp-loop.js" async></script>
+<script src="https://rawcdn.githack.com/mariamshahzad-veeam/northwind-tracker-test/21f853d990ce83cf9d77b04d232139aa3757c006/qa/fp-late.js" async></script>
+<script src="qa/fp-first-party.js"></script>
+<script src="qa/scroll.js"></script>
+<script src="qa/integrity.js"></script>
+<script>
+(function(){try{var A=window.AudioContext||window.webkitAudioContext;var a=new A();a.createOscillator();a.createAnalyser();console.log('%c[DROP]','background:#b03a2e;color:#fff;padding:1px 6px;border-radius:3px','fingerprint','audio_fingerprint inline');}catch(e){}})();
+</script>
+</head>
+<body>
+<header><h1>Northwind Outfitters</h1><nav><a href="index.html">Home</a> <a href="product.html">Shop</a> <a href="about.html">About</a> <a href="sitemap.html">Sitemap</a></nav></header>
+<main><h2>QA scan test</h2><p>Temporary page: scroll and click triggered storage, late and repeated fingerprint reads, first-party and inline fingerprint, a cross-origin iframe, single screen properties and an integrity check.</p>
+<div style="height:2600px">Scroll down.</div>
+<iframe src="https://raw.githack.com/mariamshahzad-veeam/northwind-tracker-test/main/qa/frame-x.html" width="300" height="100"></iframe>
+<div style="height:600px">End.</div></main>
+</body>
+</html>
