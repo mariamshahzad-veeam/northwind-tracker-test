@@ -1,0 +1,1 @@
+(function(){try{var t=performance.now(),x=0;for(var i=0;i<5000;i++){x+=navigator.hardwareConcurrency;}console.log('%c[DROP]','background:#b03a2e;color:#fff;padding:1px 6px;border-radius:3px','fingerprint','hardware_read x5000 reads',(performance.now()-t).toFixed(1)+' ms','<- fp-loop.js');}catch(e){}})();

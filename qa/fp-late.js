@@ -1,0 +1,1 @@
+setTimeout(function(){try{navigator.getBattery&&navigator.getBattery();console.log('%c[DROP]','background:#b03a2e;color:#fff;padding:1px 6px;border-radius:3px','fingerprint','battery_read after 12 s','<- fp-late.js');}catch(e){}},12000);

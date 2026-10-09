@@ -1,0 +1,9 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>qa frame</title></head><body>
+<script>
+(function(){
+  try{var x=navigator.hardwareConcurrency;}catch(e){}
+  try{indexedDB.open('qa_iframe_idb',1).onupgradeneeded=function(e){e.target.result.createObjectStore('s');};}catch(e){}
+  try{caches.open('qa-iframe-cache');}catch(e){}
+  console.log('[QA] iframe storage + hardware read');
+})();
+</script></body></html>

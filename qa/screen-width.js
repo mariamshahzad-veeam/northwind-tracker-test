@@ -1,0 +1,1 @@
+(function(){try{var s=window.screen;var x=s.width;console.log('%c[DROP]','background:#b03a2e;color:#fff;padding:1px 6px;border-radius:3px','fingerprint','screen_read (width only)','<- screen-width.js');}catch(e){}})();
